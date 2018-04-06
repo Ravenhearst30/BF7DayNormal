@@ -3629,55 +3629,6 @@
 	</entity_class>
 	<!-- JAXTELLER718 ANIMALS -->
      <entity_class name="animalCow" extends="animalTemplateTimid">
-<!-- 		<property name="IsEnemyEntity" value="false"/>
-		<property name="AvatarController" value="AvatarAnimalController"/>
-		<property name="ModelType" value="Standard"/>
-		<property name="HasRagdoll" value="true"/>
-		<property name="PhysicsBody" value="boar"/>
-		<property name="Mesh" value="Animals/Boar/AnimalBoarStandardRagdoll"/>
-		<property name="HandItem" value="handAnimalWolf"/>
-		<property name="MaxHealth" value="385"/>
-		<property name="HasDeathAnim" value="true"/>
-		<property name="RootMotion" value="true"/>
-		<property name="RagdollOnDeathChance" value=".5"/>
-		<property name="WanderSpeed" value="0.5" />
-		<property name="ApproachSpeed" value="0.8" />
-		<property name="NightWanderSpeed" value="0.5" />
-		<property name="NightApproachSpeed" value="0.8" />
-		<property name="PanicSpeed" value="0.9" />
-		<property class="MechanimAttackTriggers">
-			<property name="state0" value="AttackTrigger"/>
-		</property>
-		<property class="MechanimAttackStates">
-			<property name="state0" value="Attack"/>
-			<property name="state1" value="AttackStandingStill"/>
-		</property>
-		<property class="MechanimPainTriggers">
-			<property name="state0" value="PainTrigger"/>
-		</property>
-		<property class="MechanimPainStates">
-			<property name="state0" value="Pain"/>
-		</property>
-		<property class="MechanimDeathTriggers">
-			<property name="state0" value="DeathTrigger"/>
-		</property>
-		<property class="MechanimDeathStates">
-			<property name="state0" value="Death"/>
-		</property>
-		<property name="SoundRandom" value="Animals/Boar/boarroam"/>
-		<property name="SoundAlert" value="Animals/Boar/boaralert"/>
-		<property name="SoundHurt" value="Animals/Boar/boarpain"/>
-		<property name="SoundDeath" value="Animals/Boar/boardeath"/>
-		<property name="SoundAttack" value="Animals/Boar/boarattack"/>
-		<property name="SoundSense" value="Animals/Boar/boarsense"/>
-		<property name="SoundGiveUp" value="Animals/Boar/boargiveup"/>
-		<property name="ExperienceGain" value="265"/>
-		<drop event="Harvest" name="whiteMeat" tool_category="Butcher" count="4"/>
-		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="5"/>
-		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="5"/>
-		<drop event="Harvest" name="femur" tool_category="Butcher" count="2"/>
-		<drop event="Harvest" name="animalHide" tool_category="Skinner" count="3"/>
-		<drop event="Harvest" name="whiteMeat" tool_category="ButcherBonus" count="2"/> -->
 		<property name="Mesh" value="#RHAnimals?animalCow" />
 		<property name="ModelType" value="Standard" />
 		<property name="HasRagdoll" value="false" />
@@ -3729,55 +3680,6 @@
 		<drop event="Harvest" name="animalFat" tool_category="ButcherBonus" count="3"/>
 	</entity_class>
 	<entity_class name="animalBull" extends="animalTemplateHostile">
-<!-- 		<property name="IsEnemyEntity" value="false"/>
-		<property name="AvatarController" value="AvatarAnimalController"/>
-		<property name="ModelType" value="Standard"/>
-		<property name="HasRagdoll" value="true"/>
-		<property name="PhysicsBody" value="boar"/>
-		<property name="Mesh" value="Animals/Boar/AnimalBoarStandardRagdoll"/>
-		<property name="HandItem" value="handAnimalWolf"/>
-		<property name="MaxHealth" value="385"/>
-		<property name="HasDeathAnim" value="true"/>
-		<property name="RootMotion" value="true"/>
-		<property name="RagdollOnDeathChance" value=".5"/>
-		<property name="WanderSpeed" value="0.5" />
-		<property name="ApproachSpeed" value="0.8" />
-		<property name="NightWanderSpeed" value="0.5" />
-		<property name="NightApproachSpeed" value="0.8" />
-		<property name="PanicSpeed" value="0.9" />
-		<property class="MechanimAttackTriggers">
-			<property name="state0" value="AttackTrigger"/>
-		</property>
-		<property class="MechanimAttackStates">
-			<property name="state0" value="Attack"/>
-			<property name="state1" value="AttackStandingStill"/>
-		</property>
-		<property class="MechanimPainTriggers">
-			<property name="state0" value="PainTrigger"/>
-		</property>
-		<property class="MechanimPainStates">
-			<property name="state0" value="Pain"/>
-		</property>
-		<property class="MechanimDeathTriggers">
-			<property name="state0" value="DeathTrigger"/>
-		</property>
-		<property class="MechanimDeathStates">
-			<property name="state0" value="Death"/>
-		</property>
-		<property name="SoundRandom" value="Animals/Boar/boarroam"/>
-		<property name="SoundAlert" value="Animals/Boar/boaralert"/>
-		<property name="SoundHurt" value="Animals/Boar/boarpain"/>
-		<property name="SoundDeath" value="Animals/Boar/boardeath"/>
-		<property name="SoundAttack" value="Animals/Boar/boarattack"/>
-		<property name="SoundSense" value="Animals/Boar/boarsense"/>
-		<property name="SoundGiveUp" value="Animals/Boar/boargiveup"/>
-		<property name="ExperienceGain" value="265"/>
-		<drop event="Harvest" name="whiteMeat" tool_category="Butcher" count="4"/>
-		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="5"/>
-		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="5"/>
-		<drop event="Harvest" name="femur" tool_category="Butcher" count="2"/>
-		<drop event="Harvest" name="animalHide" tool_category="Skinner" count="3"/>
-		<drop event="Harvest" name="whiteMeat" tool_category="ButcherBonus" count="2"/> -->
 		<property name="Mesh" value="#RHAnimals?animalBull" />
 		<property name="ModelType" value="Standard" />
 		<property name="HasRagdoll" value="false" />
@@ -3840,55 +3742,6 @@
 		<drop event="Harvest" name="animalFat" tool_category="ButcherBonus" count="3"/>
 	</entity_class>
 	<entity_class name="animalPig" extends="animalTemplateHostile">
-<!-- 		<property name="IsEnemyEntity" value="false"/>
-		<property name="AvatarController" value="AvatarAnimalController"/>
-		<property name="ModelType" value="Standard"/>
-		<property name="HasRagdoll" value="true"/>
-		<property name="PhysicsBody" value="boar"/>
-		<property name="Mesh" value="Animals/Boar/AnimalBoarStandardRagdoll"/>
-		<property name="HandItem" value="handAnimalWolf"/>
-		<property name="MaxHealth" value="385"/>
-		<property name="HasDeathAnim" value="true"/>
-		<property name="RootMotion" value="true"/>
-		<property name="RagdollOnDeathChance" value=".5"/>
-		<property name="WanderSpeed" value="0.5" />
-		<property name="ApproachSpeed" value="0.8" />
-		<property name="NightWanderSpeed" value="0.5" />
-		<property name="NightApproachSpeed" value="0.8" />
-		<property name="PanicSpeed" value="0.9" />
-		<property class="MechanimAttackTriggers">
-			<property name="state0" value="AttackTrigger"/>
-		</property>
-		<property class="MechanimAttackStates">
-			<property name="state0" value="Attack"/>
-			<property name="state1" value="AttackStandingStill"/>
-		</property>
-		<property class="MechanimPainTriggers">
-			<property name="state0" value="PainTrigger"/>
-		</property>
-		<property class="MechanimPainStates">
-			<property name="state0" value="Pain"/>
-		</property>
-		<property class="MechanimDeathTriggers">
-			<property name="state0" value="DeathTrigger"/>
-		</property>
-		<property class="MechanimDeathStates">
-			<property name="state0" value="Death"/>
-		</property>
-		<property name="SoundRandom" value="Animals/Boar/boarroam"/>
-		<property name="SoundAlert" value="Animals/Boar/boaralert"/>
-		<property name="SoundHurt" value="Animals/Boar/boarpain"/>
-		<property name="SoundDeath" value="Animals/Boar/boardeath"/>
-		<property name="SoundAttack" value="Animals/Boar/boarattack"/>
-		<property name="SoundSense" value="Animals/Boar/boarsense"/>
-		<property name="SoundGiveUp" value="Animals/Boar/boargiveup"/>
-		<property name="ExperienceGain" value="265"/>
-		<drop event="Harvest" name="whiteMeat" tool_category="Butcher" count="4"/>
-		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="5"/>
-		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="5"/>
-		<drop event="Harvest" name="femur" tool_category="Butcher" count="2"/>
-		<drop event="Harvest" name="animalHide" tool_category="Skinner" count="3"/>
-		<drop event="Harvest" name="whiteMeat" tool_category="ButcherBonus" count="2"/> -->
 		<property name="Mesh" value="#RHAnimals?animalPig" />
 		<property name="ModelType" value="Standard" />
 		<property name="HasRagdoll" value="false" />
@@ -3950,56 +3803,6 @@
 		<drop event="Harvest" name="animalFat" tool_category="ButcherBonus" count="3"/>
 	</entity_class>
 	<entity_class name="animalCrow" extends="animalTemplateHostile">
-<!-- 		<property name="IsEnemyEntity" value="false"/>
-		<property name="AvatarController" value="AvatarAnimalController"/>
-		<property name="ModelType" value="Standard"/>
-		<property name="HasRagdoll" value="true"/>
-		<property name="PhysicsBody" value="boar"/>
-		<property name="Mesh" value="Animals/Boar/AnimalBoarStandardRagdoll"/>
-		<property name="HandItem" value="handAnimalWolf"/>
-		<property name="MaxHealth" value="385"/>
-		<property name="HasDeathAnim" value="true"/>
-		<property name="RootMotion" value="true"/>
-		<property name="RagdollOnDeathChance" value=".5"/>
-		<property name="WanderSpeed" value="0.5" />
-		<property name="ApproachSpeed" value="0.8" />
-		<property name="NightWanderSpeed" value="0.5" />
-		<property name="NightApproachSpeed" value="0.8" />
-		<property name="PanicSpeed" value="0.9" />
-		<property class="MechanimAttackTriggers">
-			<property name="state0" value="AttackTrigger"/>
-		</property>
-		<property class="MechanimAttackStates">
-			<property name="state0" value="Attack"/>
-			<property name="state1" value="AttackStandingStill"/>
-		</property>
-		<property class="MechanimPainTriggers">
-			<property name="state0" value="PainTrigger"/>
-		</property>
-		<property class="MechanimPainStates">
-			<property name="state0" value="Pain"/>
-		</property>
-		<property class="MechanimDeathTriggers">
-			<property name="state0" value="DeathTrigger"/>
-		</property>
-		<property class="MechanimDeathStates">
-			<property name="state0" value="Death"/>
-		</property>
-		<property name="SoundRandom" value="Animals/Boar/boarroam"/>
-		<property name="SoundAlert" value="Animals/Boar/boaralert"/>
-		<property name="SoundHurt" value="Animals/Boar/boarpain"/>
-		<property name="SoundDeath" value="Animals/Boar/boardeath"/>
-		<property name="SoundAttack" value="Animals/Boar/boarattack"/>
-		<property name="SoundSense" value="Animals/Boar/boarsense"/>
-		<property name="SoundGiveUp" value="Animals/Boar/boargiveup"/>
-		<property name="ExperienceGain" value="265"/>
-		<drop event="Harvest" name="whiteMeat" tool_category="Butcher" count="4"/>
-		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="5"/>
-		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="5"/>
-		<drop event="Harvest" name="femur" tool_category="Butcher" count="2"/>
-		<drop event="Harvest" name="animalHide" tool_category="Skinner" count="3"/>
-		<drop event="Harvest" name="whiteMeat" tool_category="ButcherBonus" count="2"/> -->
-	
 		<property name="Class" value="EntityVulture" />
 		<property name="AvatarController" value="AnimationSDX, Mods" />
 		<property name="ModelType" value="Standard" />
